@@ -11,6 +11,9 @@
 		BDD07C0B2A337C6E00E08D53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07C0A2A337C6E00E08D53 /* ContentView.swift */; };
 		BDD07C0D2A337C7200E08D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07C0C2A337C7200E08D53 /* Assets.xcassets */; };
 		BDD07C102A337C7200E08D53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07C0F2A337C7200E08D53 /* Preview Assets.xcassets */; };
+		BDD07C172A337E1F00E08D53 /* barbieBegin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07C162A337E1F00E08D53 /* barbieBegin.swift */; };
+		BDD07C192A337E3400E08D53 /* barbie2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07C182A337E3400E08D53 /* barbie2.swift */; };
+		BDD07C1B2A337E4700E08D53 /* barbie3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07C1A2A337E4700E08D53 /* barbie3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BDD07C0A2A337C6E00E08D53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD07C0C2A337C7200E08D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD07C0F2A337C7200E08D53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD07C162A337E1F00E08D53 /* barbieBegin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barbieBegin.swift; sourceTree = "<group>"; };
+		BDD07C182A337E3400E08D53 /* barbie2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barbie2.swift; sourceTree = "<group>"; };
+		BDD07C1A2A337E4700E08D53 /* barbie3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barbie3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				BDD07C082A337C6E00E08D53 /* Barbie_QuizApp.swift */,
 				BDD07C0A2A337C6E00E08D53 /* ContentView.swift */,
+				BDD07C162A337E1F00E08D53 /* barbieBegin.swift */,
+				BDD07C182A337E3400E08D53 /* barbie2.swift */,
+				BDD07C1A2A337E4700E08D53 /* barbie3.swift */,
 				BDD07C0C2A337C7200E08D53 /* Assets.xcassets */,
 				BDD07C0E2A337C7200E08D53 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD07C0B2A337C6E00E08D53 /* ContentView.swift in Sources */,
+				BDD07C172A337E1F00E08D53 /* barbieBegin.swift in Sources */,
 				BDD07C092A337C6E00E08D53 /* Barbie_QuizApp.swift in Sources */,
+				BDD07C192A337E3400E08D53 /* barbie2.swift in Sources */,
+				BDD07C1B2A337E4700E08D53 /* barbie3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

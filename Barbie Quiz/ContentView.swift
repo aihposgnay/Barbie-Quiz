@@ -9,18 +9,51 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        NavigationStack {
+            ZStack{
+                Color("Color")
+                    .ignoresSafeArea()
+                VStack {
+                    Text("Barbie Quiz 💗💅🏻")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: 1.0, green: -0.002, blue: 0.543))
+                        .multilineTextAlignment(.center)
+                    Image("barbieeLife 1")
+                        .resizable()
+                        .frame(width: 300, height: 200)
+                        .padding()
+                            }
+                .toolbar {
+                    ToolbarItemGroup(placement: .status){
+                        NavigationLink(destination: barbieBegin()) {
+                            Text("Begin Quiz!")
+                            Color(.white)
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+                            }
+                        }
+                }
+                .padding()
+                .background(Rectangle().foregroundColor(.white))
+                .cornerRadius(15)
+                .shadow(radius: 15)
+                .padding()
+                
+            }
+            
+            
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
